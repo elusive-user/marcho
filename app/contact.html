@@ -6,16 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Highway to Star</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/contact.min.css">
 </head>
 
-<header class="header">
+<body>
+
+  <header class="header">
   <div class="container">
     <div class="header__inner">
       <a class="logo" href="#">
         <img class="logo__img" src="images/logo.png" alt="logo">
       </a>
       <nav class="menu">
+      <button class="menu__btn">
+        <span></span>
+      </button>
         <ul class="menu__list">
           <li class="menu__list-item">
             <a class="menu__list-link menu__list-link--active" href="#">home</a>
@@ -55,22 +60,20 @@
 </header>
 
 <main class="main">
-
-
   <section class="top">
     <div class="top__container" style="background-image: url(images/top-bg.jpg);">
       <div class="container">
-        <h2 class="top__title title">CONTACT US</h2>
+        <h2 class="top__title title">LOG IN</h2>
         <div class="breadcrumbs">
           <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
               <a class="breadcrumbs__link" href="#">
-                Home
+                Home 
               </a>
             </li>
             <li class="breadcrumbs__item">
               <a class="breadcrumbs__link" href="#">
-                Contact
+                Log in
               </a>
             </li>
           </ul>
@@ -130,7 +133,7 @@
 
 </main>
 
-<footer class="footer">
+  <footer class="footer">
   <div class="container">
     <div class="footer-top">
       <div class="footer-top__item footer-top__contact">
@@ -266,7 +269,6 @@
   </div>
 </footer>
 
-<body>
   <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&v=weekly" async></script>
   <script>
     let map;
