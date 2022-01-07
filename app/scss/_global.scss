@@ -40,6 +40,7 @@ body{
 .breadcrumbs {
   display: inline-flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding-left: 25px;
   position: relative;
   &::before{
